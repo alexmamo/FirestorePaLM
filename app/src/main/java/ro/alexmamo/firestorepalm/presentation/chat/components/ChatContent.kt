@@ -65,7 +65,7 @@ fun ChatContent(
                         prompt?.let {
                             Text(
                                 modifier = Modifier.padding(4.dp),
-                                text = "${question.addedBy}: ${question.prompt}",
+                                text = "${question.createBy}: ${question.prompt}",
                                 fontSize = 15.sp
                             )
                         }

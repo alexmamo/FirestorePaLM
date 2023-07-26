@@ -13,8 +13,8 @@ const val CHAT_SCREEN_ROUTE = "chat"
 //Firestore
 const val HISTORY = "history"
 const val PROMPT = "prompt"
-const val ADDED_AT = "addedAt"
-const val ADDED_BY = "addedBy"
+const val CREATE_TIME = "createTime"
+const val CREATE_BY = "createBy"
 
 //Arguments
 const val NAME = "name"
